@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(30, 54%, 90%)
+    
+}
+.main-container{
+    font-family: "Outfit", sans-serif;    ;
+    display:flex ;
+    margin-top: 3%;    
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 700px;
+    height: 1610px;
+    border-radius: 15px;
+}
+.main-container img{
+    height: 270px;
+    width: 600px;
+    margin: 40px auto;
+    border-radius: 15px;
+}
+.first-article{
+    margin: 10px auto;
+}
+.first-article .principal-title{
+    font-family: "Young Serif", serif;;
+    font-size: 35px;
+    font-weight: 500;
+    margin-left: 11px;
+}
+.first-article p{
+    margin: 10px;
+    color:  hsl(30, 10%, 34%)
+}
+.preparation-container{
+    background-color:  hsl(327, 100%, 98%);
+    height: 170px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.preparation-container h2{
+    color: hsl(332, 51%, 32%) ;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.preparation-container ul{
+    margin: auto 50px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.preparation-container li{
+    margin-top: 10px;
+}
+.preparation-container li::marker{
+    color: hsl(332, 51%, 32%) ;
+}
+li b{
+    color:  hsl(30, 10%, 34%);
+}
+.ingredients-card-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25%;
+}
+.ingredients-card-container h2{
+    color:  hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+}
+.ingredients-card-container li{
+    font-size: 15px;
+    margin: 10px;
+    color:  hsl(30, 10%, 34%);
+}
+.ingredients-card-container li::marker{
+    color:  hsl(14, 45%, 36%);
+}
+.ingredients-card-container{
+    display: flex;
+    margin-right: 25%;
+}
+.instructions-card-container h2{
+    color:  hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    
+}
+.instructions-card-container ol{
+    width: 600px;
+    margin-left: 20px;
+    
+}
+.instructions-card-container li{
+    margin-top: 20px;
+    color:  hsl(30, 10%, 34%);
+    
+}
+
+.instructions-card-container li::marker{
+    color:  hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+hr{
+    width: 630px;
+}
+.linea-uno{
+    margin: 20px 0;
+}
+.nutrition-table-container h2{
+    color:  hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.nutrition-table-container p{
+   margin: 30px 0;
+   color:  hsl(30, 10%, 34%);
+}
+.table-info ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 15px  0;
+    color:  hsl(30, 10%, 34%);
+    font-weight: 500;
+}
+.table-info .second-medition{
+    color:  hsl(14, 45%, 36%);
+    margin-right: 50%;
+    font-weight: bold;
+}
+
